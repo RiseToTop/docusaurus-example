@@ -1,8 +1,19 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/",
-      "destination": "/docs"
+      "destination": "/docs",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/docs",
+      "destination": "https://docusaurus-example-three.vercel.app"
+    },
+    {
+      "source": "/docs/(.*)",
+      "destination": "https://docusaurus-example-three.vercel.app/$1"
     },
     {
       "source": "/assets/css/:path*",
