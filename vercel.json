@@ -7,22 +7,6 @@
     {
       "source": "/(.*)",
       "destination": "https://docusaurus-example-three.vercel.app/docs/$1"
-    },
-    {
-      "source": "/assets/css/:path*",
-      "destination": "https://docusaurus-example-three.vercel.app/assets/css/:path*"
-    },
-    {
-      "source": "/assets/js/:path*",
-      "destination": "https://docusaurus-example-three.vercel.app/assets/js/:path*"
-    },
-    {
-      "source": "/assets/images/:path*",
-      "destination": "https://docusaurus-example-three.vercel.app/assets/images/:path*"
-    },
-    {
-      "source": "/img/:path*",
-      "destination": "https://docusaurus-example-three.vercel.app/img/:path*"
     }
   ]
 }
