@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/",
-      "destination": "https://docusaurus-example-three.vercel.app"
+      "source": "https://docusaurus-example-three.vercel.app",
+      "destination": "https://docusaurus-example-three.vercel.app/docs"
     },
     {
       "source": "/docs",
