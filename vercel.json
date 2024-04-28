@@ -1,12 +1,9 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/",
-      "destination": "https://docusaurus-example-three.vercel.app/docs"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "https://docusaurus-example-three.vercel.app/docs/$1"
+      "destination": "/docs",
+      "permanent": true
     }
   ]
 }
